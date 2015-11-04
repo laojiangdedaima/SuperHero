@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>sections</key>
+	<array>
+		<dict>
+			<key>rows</key>
+			<array>
+				<dict>
+					<key>key</key>
+					<string>name</string>
+					<key>label</key>
+					<string>姓名:</string>
+					<key>class</key>
+					<string>HeroEditCell</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>rows</key>
+			<array>
+				<dict>
+					<key>key</key>
+					<string>secretIdentity</string>
+					<key>label</key>
+					<string>秘密身份：</string>
+					<key>class</key>
+					<string>HeroEditCell</string>
+				</dict>
+				<dict>
+					<key>key</key>
+					<string>birthdate</string>
+					<key>label</key>
+					<string>生日：</string>
+					<key>class</key>
+					<string>HeroDataEditCell</string>
+				</dict>
+				<dict>
+					<key>values</key>
+					<array>
+						<string>男</string>
+						<string>女</string>
+					</array>
+					<key>key</key>
+					<string>sex</string>
+					<key>label</key>
+					<string>性别：</string>
+					<key>class</key>
+					<string>HeroEditCell</string>
+				</dict>
+				<dict/>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
